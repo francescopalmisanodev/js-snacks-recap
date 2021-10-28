@@ -11,8 +11,6 @@ btn.addEventListener("click",function(){
         }while (isNaN(numero[i]))
         somma+=numero[i]; 
     }
-    media=somma/numero.length;
-    console.log(media);
-    console.log(somma);   
+    media=somma/numero.length; 
     calcolo.innerHTML=(`<div>La somma è:${somma}, La media è:${media}</div>`);
 })
